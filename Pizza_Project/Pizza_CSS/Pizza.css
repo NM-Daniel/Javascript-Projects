@@ -1,0 +1,85 @@
+body {
+    background-color: lightsalmon;
+    margin: 0%;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: whitesmoke;
+}
+
+div {
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+}
+
+#menuBG {
+    width:650px;
+    height:100vh;
+    margin-left: 50%;
+    transform: translate(-50%);
+    background-color: brown;
+}
+
+#frmMenu {
+    width: 650px;
+    height:250px;
+    margin: auto;
+    background-color: brown;
+    
+}
+
+.menu {
+    padding: 10px;
+}
+
+#totalPrice {
+    width:200px;
+    height:190px;
+    margin:0 auto;
+    float:right;
+}
+
+.left {
+    width:200px;
+    height:200px;
+    float:left;
+}
+
+.center {
+    display: inline-block
+}
+
+.right {
+    width:200px;
+    height:200px;
+    float:right; 
+}
+
+#showText {
+    width:200px;
+    height:190px;
+    margin:0px auto;
+    float:left;
+}
+
+#cart {
+    top:0;
+    margin:0px auto;
+    width:400px;
+    height:200px;
+}
+
+#btnOrder {
+    margin-top: 10px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    width: 100px;
+    height:40px;
+}
