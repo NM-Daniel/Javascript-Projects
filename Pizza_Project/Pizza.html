@@ -9,6 +9,16 @@
     </head>
 
     <body>
+    <script>
+        // Fade-out class is added to the body
+        document.body.classList.add('fade-out');
+
+        // Fade-out class is removed once the page is loaded
+        window.addEventListener('DOMContentLoaded', () => {
+            document.body.classList.remove('fade-out');
+        });
+    </script>
+    
         <div id="menuBG">
             <h1 style="margin:0 0px 0 20px;">Renaissance Pizza</h1>
             <input id="btnOrder" type="button" onclick="getReceipt()" value="Place Order">

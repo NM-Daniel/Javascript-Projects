@@ -1,7 +1,15 @@
 body {
     background-color: lightsalmon;
     margin: 0%;
+
+    opacity: 1; /* beginning of fade-in effect */
+    transition: 2s opacity; 
 }
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}   /* end of fade-in effect */
 
 h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
