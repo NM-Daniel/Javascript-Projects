@@ -4,7 +4,7 @@ This repository will contain samples of my JavaScript projects, some of which wi
 <ul>
   <li><a href="./Pizza_Project/Pizza.html">Pizza Menu</a></li>
   <li><a href="./TicTacToe/TicTacToe.html">TicTacToe</a></li>
-  <li><a href="./Calculator/calculator.html>Calculator</a></li>
+  <li><a href="./Calculator/calculator.html">Calculator</a></li>
 </ul>
 <h3>Pizza Menu</h3>
 This is an example of an online menu for a pizza restaurant. It takes the input of various size and toppings and calculates a price for your order.
